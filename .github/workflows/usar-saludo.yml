@@ -1,0 +1,7 @@
+name: Usar saludo
+on: [push]
+jobs:
+  llamar:
+    uses: pao14pao12-ux/mis-acciones/.github/workflows/saludo.yml@main
+    with:
+      nombre: Desde otro repo
