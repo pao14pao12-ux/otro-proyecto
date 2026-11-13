@@ -1,0 +1,9 @@
+name: Usar python
+on: [push]
+jobs:
+  saludar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: pao14pao12-ux/mis-acciones/acciones/hola-python@main
+        with:
+          nombre: Javier
